@@ -1,0 +1,23 @@
+.feature {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  -webkit-transform: skewX(12deg);
+  -moz-transform: skewX(12deg);
+  -ms-transform: skewX(12deg);
+  -o-transform: skewX(12deg);
+  transform: skewX(12deg);
+  -webkit-backface-visibility: hidden;
+}
+
+.feature-image {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  -webkit-transform: skewX(-12deg);
+  -moz-transform: skewX(-12deg);
+  -ms-transform: skewX(-12deg);
+  -o-transform: skewX(-12deg);
+  transform: skewX(-12deg);
+  -webkit-backface-visibility: hidden;
+}

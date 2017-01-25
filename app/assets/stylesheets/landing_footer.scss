@@ -1,0 +1,21 @@
+// FOOTER
+@media (min-width: 768px) {
+  .footer {
+    // position: absolute;
+    bottom: 0;
+    background-color: #4a4a4a;
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .footer-logo {
+    width: 50%;
+    height: 50%;
+  }
+
+  .footer-text {
+    display: flex;
+    color: #fff;
+  }
+}

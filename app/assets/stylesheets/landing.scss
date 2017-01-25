@@ -1,0 +1,42 @@
+// Place all the styles related to the landing controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+// TEXT
+.header-dark {
+  text-decoration: none;
+  display: inline-table;
+  color: #3E3F3A;
+  border-bottom: 0.2em solid #3E88E0;
+}
+
+.header-light {
+  text-decoration: none;
+  display: inline-table;
+  color: #FFF;
+  border-bottom: 0.2em solid #FFF;
+}
+
+.major-paragraph {
+  color: #3E3F3A;
+  line-height: 2em;
+  margin-bottom: 1em;
+}
+
+.float-right {
+  float: right;
+  clear: right;
+}
+
+
+// MODALS
+@media (min-width: 768px) {
+  .modal-content {
+    border: 0px !important;
+  }
+
+  .modal-dialog {
+    width: 550px !important;
+    margin: 30px;
+  }
+}

@@ -1,0 +1,95 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+ body, html {
+   height: 100%;
+ }
+
+ .page-space {
+   margin-top: 20px;
+ }
+
+ .page-space-lg {
+   margin-top: 40px;
+ }
+
+ .page-space-xl {
+   margin-top: 60px
+ }
+
+ .form-space {
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+ }
+
+ .transition {
+   -webkit-transition: all 1s ease-in-out;
+   -moz-transition: all 1s ease-in-out;
+   -o-transition: all 1s ease-in-out;
+   transition: all 1s ease-in-out;
+ }
+
+ .transition.fast {
+   -webkit-transition: all 0.5s ease-in-out;
+   -moz-transition: all 0.5s ease-in-out;
+   -o-transition: all 0.5s ease-in-out;
+   transition: all 0.5s ease-in-out;
+ }
+
+ .slant-vertical-purple {
+   margin-left: -2rem;
+   content: '';
+   background-color: rgba(132,100,202,1);
+   height: 100%;
+   width: 50px;
+   -webkit-transform: skewX(-12deg);
+   -moz-transform: skewX(-12deg);
+   -ms-transform: skewX(-12deg);
+   -o-transform: skewX(-12deg);
+   transform: skewX(-12deg);
+   -webkit-backface-visibility: hidden;
+ }
+
+ .slant-starter-blue-pos {
+   margin-top: -3.5rem;
+   content: '';
+   /*background-color: rgba(62,136,224,1);*/
+   background-color: #3E88E0;
+   height: 200px;
+   width: 100%;
+   -webkit-transform: skewY(2.0deg);
+   -moz-transform: skewY(2.0deg);
+   -ms-transform: skewY(2.0deg);
+   -o-transform: skewY(2.0deg);
+   transform: skewY(2.0deg);
+   -webkit-backface-visibility: hidden;
+ }
+
+ .slant-stacker-purple-neg {
+   margin-bottom: -3.5rem;
+   content: '';
+   /*background-color: rgba(62,136,224,1);*/
+   background-color: rgba(132,100,202,1);
+   height: 100px;
+   width: 100%;
+   -webkit-transform: skewY(-1.2deg);
+   -moz-transform: skewY(-1.2deg);
+   -ms-transform: skewY(-1.2deg);
+   -o-transform: skewY(-1.2deg);
+   transform: skewY(-1.2deg);
+   -webkit-backface-visibility: hidden;
+ }

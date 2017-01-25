@@ -1,0 +1,30 @@
+// NAVBAR
+@media (min-width: 768px) {
+
+  #nav-btn {
+    margin-top: 3.4rem;
+  }
+
+  .navbar-nav > li > a {
+    line-height: 60px !important;
+  }
+
+  .nav-logo {
+    max-height: 275%;
+  }
+
+  .navbar-nav > li.nav-brand > a {
+    padding-top: 10% !important;
+    // padding-bottom: 20px !important;
+  }
+
+  .navbar {
+    max-height: 100px !important;
+  }
+
+  .show {
+    background-color: #3E88E0;
+    border-color: #3E88E0;
+  }
+
+}
