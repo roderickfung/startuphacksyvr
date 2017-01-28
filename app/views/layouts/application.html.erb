@@ -9,8 +9,20 @@
   </head>
 
   <body>
+    <!-- NAV -->
     <%= render partial: '/layouts/partials/nav' %>
+
     <%= yield %>
-    <%= render partial: '/layouts/partials/footer'%>
+
+    <!-- FOOTER -->
+    <%= render partial: '/layouts/partials/footer' %>
+
+    <!-- MODAL -->
+    <%= render partial: '/partials/speakers/modals' %>
+
+
+
+
+
   </body>
 </html>

@@ -2,7 +2,7 @@
   <div class='hero-overlay'>
     <div class='hero-space'></div>
     <div class='row'>
-      <div class='col-md-offset-6 col-sm-offset-4 col-xs-offset-3'>
+      <div class='col-md-offset-6 col-md-6 col-sm-offset-4 col-sm-8 col-xs-offset-3 col-xs-9'>
         <h3 class='hero-text'>
           <b>STARTUP ACADEMY PRESENTS:</b>
         </h3>
@@ -23,9 +23,21 @@
 </div>
 
 <div class='slant-starter-blue-pos'></div>
+<div class='page-space-lg'></div>
 <%= render partial: '/partials/intro' %>
+<div class='page-space-lg'></div>
 <div class='slant-stacker-purple-neg'></div>
 <div style='background-color: rgba(132,100,202,1);'>
   <%= render partial: '/partials/speakers/keynotes' %>
 </div>
-<%= render partial: '/partials/features'%>
+<div class='slant-stacker-purple-neg' style='position: absolute;'></div>
+<div class='feature'>
+  <div style='margin-top: 40px;'></div>
+  <div class='feature-overlay'>
+    <%= render partial: '/partials/features'%>
+  </div>
+</div>
+<div class='slant-stacker-blue-pos'></div>
+<div class='page-space-lg'></div>
+<%= render partial: '/partials/purchase' %>
+<div class='slant-stacker-blue-pos'></div>

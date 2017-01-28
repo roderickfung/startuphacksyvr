@@ -16,7 +16,22 @@
 
 
  body, html {
-   height: 100%;
+   width: 100%;
+   margin: 0px;
+   padding: 0px;
+   overflow-x: hidden;
+ }
+
+ a {
+   /*color: #93c54b;*/
+   color: #3E88E0;
+   text-decoration: none;
+ }
+ a:hover,
+ a:focus {
+   color: #3E88E0;
+   /*color: #79a736;*/
+   text-decoration: underline;
  }
 
  .page-space {
@@ -56,6 +71,7 @@
    background-color: rgba(132,100,202,1);
    height: 100%;
    width: 50px;
+   z-index: 1000;
    -webkit-transform: skewX(-12deg);
    -moz-transform: skewX(-12deg);
    -ms-transform: skewX(-12deg);
@@ -71,6 +87,7 @@
    background-color: #3E88E0;
    height: 200px;
    width: 100%;
+   z-index: 1000;
    -webkit-transform: skewY(2.0deg);
    -moz-transform: skewY(2.0deg);
    -ms-transform: skewY(2.0deg);
@@ -80,16 +97,34 @@
  }
 
  .slant-stacker-purple-neg {
+   margin-top: -3.5rem;
    margin-bottom: -3.5rem;
    content: '';
    /*background-color: rgba(62,136,224,1);*/
    background-color: rgba(132,100,202,1);
-   height: 100px;
+   height: 150px;
    width: 100%;
-   -webkit-transform: skewY(-1.2deg);
-   -moz-transform: skewY(-1.2deg);
-   -ms-transform: skewY(-1.2deg);
-   -o-transform: skewY(-1.2deg);
-   transform: skewY(-1.2deg);
+   z-index: 1000;
+   -webkit-transform: skewY(1.2deg);
+   -moz-transform: skewY(1.2deg);
+   -ms-transform: skewY(1.2deg);
+   -o-transform: skewY(1.2deg);
+   transform: skewY(1.2deg);
+   -webkit-backface-visibility: hidden;
+ }
+
+ .slant-stacker-blue-pos {
+   margin-top: -3.5rem;
+   margin-bottom: -3.5rem;
+   content: '';
+   background-color: rgba(62,136,224,1);
+   height: 150px;
+   width: 100%;
+   z-index: 1000;
+   -webkit-transform: skewY(1.2deg);
+   -moz-transform: skewY(1.2deg);
+   -ms-transform: skewY(1.2deg);
+   -o-transform: skewY(1.2deg);
+   transform: skewY(1.2deg);
    -webkit-backface-visibility: hidden;
  }
