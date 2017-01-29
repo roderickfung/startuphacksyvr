@@ -1,23 +1,22 @@
 .feature {
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  -webkit-transform: skewX(12deg);
-  -moz-transform: skewX(12deg);
-  -ms-transform: skewX(12deg);
-  -o-transform: skewX(12deg);
-  transform: skewX(12deg);
-  -webkit-backface-visibility: hidden;
+  background-image: url('https://s3-us-west-2.amazonaws.com/startupacademy-yvr/Asset/5');
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+  background-attachment: fixed;
+  z-index: -1000;
+  height: 40rem;
+  max-height: 70rem;
+  margin-top: 90px;
 }
 
-.feature-image {
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  -webkit-transform: skewX(-12deg);
-  -moz-transform: skewX(-12deg);
-  -ms-transform: skewX(-12deg);
-  -o-transform: skewX(-12deg);
-  transform: skewX(-12deg);
-  -webkit-backface-visibility: hidden;
+.feature-overlay {
+  background-color: rgba(100,100,100,0.6);
+  min-width: 100%;
+  height: 40rem;
+  position:absolute;
+}
+
+.white {
+  color: #FFF;
 }

@@ -1,5 +1,5 @@
 // NAVBAR
-@media (min-width: 768px) {
+// @media (min-width: 768px) {
 
   #nav-btn {
     margin-top: 3.4rem;
@@ -10,10 +10,10 @@
   }
 
   .nav-logo {
-    max-height: 275%;
+    height: 65px;
   }
 
-  .navbar-nav > li.nav-brand > a {
+  .navbar-nav > li .navbar-brand > a {
     padding-top: 10% !important;
     // padding-bottom: 20px !important;
   }
@@ -27,4 +27,4 @@
     border-color: #3E88E0;
   }
 
-}
+// }

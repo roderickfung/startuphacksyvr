@@ -1,4 +1,15 @@
 // FOOTER
+
+.foot-nav a {
+  background-color: rgba(0,0,0,0) !important;
+  color: #FFF !important;
+}
+
+.foot-nav a:hover {
+  background-color: rgba(0,0,0,0) !important;
+  color: lightblue !important;
+}
+
 @media (min-width: 768px) {
   .footer {
     // position: absolute;
@@ -10,8 +21,8 @@
   }
 
   .footer-logo {
-    width: 50%;
-    height: 50%;
+    width: 10%;
+    height: 10%;
   }
 
   .footer-text {

@@ -18,13 +18,14 @@
     height: 70vh;
     max-height: 85vh;
     position:absolute;
-    z-index: 1;
   }
 
   .hero-text {
     color: #fff;
     background-color: rgba(62,136,224,0.5);
-    padding: 1.3rem 1rem 1.3rem 1rem;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    padding-left: 1rem;
   }
 
 }

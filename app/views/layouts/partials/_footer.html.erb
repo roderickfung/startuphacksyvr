@@ -1,15 +1,37 @@
 <div class='footer'>
+  <div style='margin-top: 80px'></div>
   <div class='container'>
-    <div class='row'>
-      <div class='col-sm-3 col-sm-3 col-xs-3'>
-        <img src='https://s3-us-west-2.amazonaws.com/startupacademy-yvr/logo.png' class='footer-logo' />
-      </div>
 
-      <div class='col-sm-offset-2 col-sm-4 col-xs-offset-2 col-xs-4 footer-text'>
-        <p>
-          Adfasdf
-        </p>
-      </div>
-    </div>
+    <a href='https://www.startupacademybc.org/'>
+      <img src='https://s3-us-west-2.amazonaws.com/startupacademy-yvr/logo.png' class='footer-logo' />
+    </a>
+
+    <ul class='nav navbar-nav navbar-right foot-nav'>
+
+      <li>
+        <%= link_to 'https://twitter.com/stuacademy' do %>
+        <h4><i class='fa fa-twitter-square'></i></h4>
+        <% end %>
+      </li>
+
+      <li>
+        <%= link_to 'https://www.facebook.com/events/910939902384148/' do %>
+          <h4><i class='fa fa-facebook-square'></i></h4>
+        <% end %>
+      </li>
+
+      <li>
+        <%= link_to 'https://www.instagram.com/startupacademyintl/' do %>
+          <h4><i class='fa fa-instagram'></i></h4>
+        <% end %>
+      </li>
+
+      <li>
+        <%= mail_to 'will@startupacademybc.org' do %>
+          <h4><i class='fa fa-envelope'></i></h4>
+        <% end %>
+      </li>
+    </ul>
+
   </div>
 </div>
