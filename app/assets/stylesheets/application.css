@@ -51,6 +51,15 @@
    margin-bottom: 1rem;
  }
 
+ .btn-warning {
+   background-color: rgba(132,100,202,1);
+ }
+
+ .btn-warning:hover {
+   background-color: #FFF;
+   color: #3E88E0;
+ }
+
  .transition {
    -webkit-transition: all 1s ease-in-out;
    -moz-transition: all 1s ease-in-out;
@@ -85,7 +94,7 @@
    content: '';
    /*background-color: rgba(62,136,224,1);*/
    background-color: #3E88E0;
-   height: 200px;
+   height: 150px;
    width: 100%;
    z-index: 1000;
    -webkit-transform: skewY(2.0deg);
